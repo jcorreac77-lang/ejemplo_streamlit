@@ -16,7 +16,7 @@ df = cargar_datos()
 # --- Filtros en la barra lateral ---
 st.sidebar.title("pagina de jose")
 st.sidebar.header("Filtros")
-st.image("muertos fc.png")
+st.sidebar.image("muertos fc.png")
 colores = st.sidebar.multiselect(
     "Colores", sorted(df["color"].unique()), default=sorted(df["color"].unique())
 )
